@@ -24,4 +24,33 @@ h4{
     background-color: #D23F00;
 }
 
+div .container{
+    display: flex; 
+    flex-direction: row;
+    row-gap: 0.2rem;  
+    column-gap: 0.5rem; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+div .container #cuadro1{
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+div .container #cuadro2{
+    flex-basis: 100%;
+    flex-grow: 2;
+}
+
+div .container #tablatotal{
+    flex-basis: 100%;
+    flex-grow: 3;
+}
+
+div .container #monitoreo{
+    flex-basis: 100%;
+    flex-grow: 4;
+}
 
