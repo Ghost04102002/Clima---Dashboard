@@ -1,0 +1,27 @@
+table.default tr:not(:nth-child(1)):not(:nth-child(2)) {
+    display: none;
+}
+
+
+body{
+    background-color: #D620E5;
+}
+
+.p-4{
+    background-color: #D620E5;
+    color: #fff;
+}
+/*text-right bg-light*/
+canvas{
+    background-color: #FFFFFF;
+    
+}
+div .card{
+    background-color: #2BB3F7;
+}
+
+h4{
+    background-color: #D23F00;
+}
+
+
